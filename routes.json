@@ -1,96 +1,566 @@
 {
-      "1": "01",
-      "1C": "01c",
-      "2": "02",
-      "3": "03",
-      "3C": "03c",
-      "4": "04",
-      "4C": "04c",
-      "5": "05",
-      "5C": "05c",
-      "6": "06",
-      "7": "07",
-      "7B": "07b",
-      "7C": "07c",
-      "8": "08",
-      "8C": "08c",
-      "9": "09",
-      "9B": "09b",
-      "9C": "09c",
-      "10": "10",
-      "10C": "10c",
-      "11": "11",
-      "11C": "11c",
-      "12": "12",
-      "12A": "12a",
-      "12B": "12b",
-      "12C": "12c",
-      "13": "13",
-      "13B": "13b",
-      "13C": "13c",
-      "14": "14",
-      "15": "15",
-      "15A": "15a",
-      "15B": "15b",
-      "15C": "15c",
-      "16": "16",
-      "16B": "16b",
-      "16C": "16c",
-      "17": "17",
-      "17B": "17b",
-      "17c": "17c",
-      "18": "18",
-      "18B": "18b",
-      "18C": "18c",
-      "19": "19",
-      "19a": "19a",
-      "19B": "19b",
-      "19C": "19c",
-      "20": "20",
-      "20B": "20b",
-      "20C": "20c",
-      "21": "21",
-      "21C": "21c",
-      "22": "22",
-      "23": "23",
-      "23C": "23c",
-      "24": "24",
-      "24C": "24c",
-      "25": "25",
-      "25C": "25c",
-      "26": "26",
-      "26C": "26c",
-      "27": "27",
-      "27C": "27c",
-      "28": "28",
-      "28C": "28c",
-      "29": "29",
-      "29C": "29c",
-      "30": "30",
-      "30C": "30c",
-      "31": "31",
-      "32": "32",
-      "32C": "32c",
-      "33": "33",
-      "33C": "33c",
-      "34": "34",
-      "35": "35",
-      "35C": "35c",
-      "36": "36",
-      "36C": "36c",
-      "37": "37",
-      "37B": "37b",
-      "37C": "37c",
-      "38": "38",
-      "38C": "38c",
-      "39": "39",
-      "40": "40",
-      "40B": "40b",
-      "40C": "40c",
-      "41": "41",
-      "41C": "41c",
-      "42": "42",
-      "42C": "42c",
-      "43": "43",
-      "44": "44"
+    "1": {
+        "sno": "1",
+        "routeName": "Ennore",
+        "time": "5.45am",
+        "url": "01"
+    },
+    "2": {
+        "sno": "1C",
+        "routeName": " Tollgate",
+        "time": "6.10 am",
+        "url": "01c"
+    },
+    "3": {
+        "sno": "2",
+        "routeName": "Tondiarpet ",
+        "time": "6.10 am",
+        "url": "02"
+    },
+    "4": {
+        "sno": "3",
+        "routeName": "Choolai ",
+        "time": "6.15 am",
+        "url": "03"
+    },
+    "5": {
+        "sno": "3C",
+        "routeName": "Ayanawaram ESI",
+        "time": "6.20 am",
+        "url": "03c"
+    },
+    "6": {
+        "sno": "4",
+        "routeName": "Chintadripet",
+        "time": "6.15 am",
+        "url": "04"
+    },
+    "7": {
+        "sno": "4C",
+        "routeName": "Loyola College",
+        "time": "6.35 am",
+        "url": "04c"
+    },
+    "8": {
+        "sno": "5",
+        "routeName": "Chintamani",
+        "time": "6.30 am",
+        "url": "05"
+    },
+    "9": {
+        "sno": "5C",
+        "routeName": "Toyota Show room",
+        "time": "6.45 am",
+        "url": "05c"
+    },
+    "10": {
+        "sno": "6",
+        "routeName": "New Avadi Road Water Tank",
+        "time": "6.35 am",
+        "url": "06"
+    },
+    "11": {
+        "sno": "7",
+        "routeName": "Anna Nagar East",
+        "time": "6.35 am",
+        "url": "07"
+    },
+    "12": {
+        "sno": "7B",
+        "routeName": "Thirumangalam EB",
+        "time": "6.40 am",
+        "url": "07b"
+    },
+    "13": {
+        "sno": "7C",
+        "routeName": "Wavin ",
+        "time": "6.45 am",
+        "url": "07c"
+    },
+    "14": {
+        "sno": "8",
+        "routeName": "SIDCO Villivakkam ",
+        "time": "6.40 am",
+        "url": "08"
+    },
+    "15": {
+        "sno": "8C",
+        "routeName": "Waves ",
+        "time": "6.40 am",
+        "url": "08c"
+    },
+    "16": {
+        "sno": "9",
+        "routeName": "Mugappair East",
+        "time": "6.40 am",
+        "url": "09"
+    },
+    "17": {
+        "sno": "9B",
+        "routeName": "Mugappair",
+        "time": "6.40 am",
+        "url": "09b"
+    },
+    "18": {
+        "sno": "9C",
+        "routeName": "Mugappair west",
+        "time": "6.50 am",
+        "url": "09c"
+    },
+    "19": {
+        "sno": "10",
+        "routeName": "Pattalam (Dasamhan Road) ",
+        "time": "6.18 am",
+        "url": "10"
+    },
+    "20": {
+        "sno": "10C",
+        "routeName": "Binny Mill Church",
+        "time": "6.20 am",
+        "url": "10c"
+    },
+    "21": {
+        "sno": "11",
+        "routeName": "Madhavaram ",
+        "time": "6.20 am",
+        "url": "11"
+    },
+    "22": {
+        "sno": "11C",
+        "routeName": "Korattur ",
+        "time": "6.30 am",
+        "url": "11c"
+    },
+    "23": {
+        "sno": "12",
+        "routeName": "MKB Nagar",
+        "time": "6.15 am",
+        "url": "12"
+    },
+    "24": {
+        "sno": "12A",
+        "routeName": "Moolakadai",
+        "time": "6.20 am",
+        "url": "12a"
+    },
+    "25": {
+        "sno": "12B",
+        "routeName": "Kolathur ",
+        "time": "6.30 am",
+        "url": "12b"
+    },
+    "26": {
+        "sno": "12C",
+        "routeName": "Perambur  ",
+        "time": "6.10 am",
+        "url": "12c"
+    },
+    "27": {
+        "sno": "13",
+        "routeName": "Peravallur",
+        "time": "6.20 am",
+        "url": "13"
+    },
+    "28": {
+        "sno": "13B",
+        "routeName": "T.V.K Nagar  ",
+        "time": "6.20 am",
+        "url": "13b"
+    },
+    "29": {
+        "sno": "13C",
+        "routeName": "Poombukar Nagar",
+        "time": "6.30 am",
+        "url": "13c"
+    },
+    "30": {
+        "sno": "14",
+        "routeName": "Minjur",
+        "time": "5.30 am",
+        "url": "14"
+    },
+    "31": {
+        "sno": "15",
+        "routeName": "Ayapakkam",
+        "time": "6.25 am",
+        "url": "15"
+    },
+    "32": {
+        "sno": "15A",
+        "routeName": "Ayapakkam Selvi Mahal",
+        "time": "6.20 am",
+        "url": "15a"
+    },
+    "33": {
+        "sno": "15B",
+        "routeName": "Thirumullaivoil",
+        "time": "6.40 am",
+        "url": "15b"
+    },
+    "34": {
+        "sno": "15C",
+        "routeName": "Ambattur OT",
+        "time": "6.25 am",
+        "url": "15c"
+    },
+    "35": {
+        "sno": "16",
+        "routeName": "Red Hills Thachoor Koot Road",
+        "time": "5.50 am",
+        "url": "16"
+    },
+    "36": {
+        "sno": "16B",
+        "routeName": "Vinayagapuram ",
+        "time": "6.24 am",
+        "url": "16b"
+    },
+    "37": {
+        "sno": "16C",
+        "routeName": "Puzhal Byepass",
+        "time": "6.15 am",
+        "url": "16c"
+    },
+    "38": {
+        "sno": "17",
+        "routeName": "Uthukottai",
+        "time": "5.50 am",
+        "url": "17"
+    },
+    "39": {
+        "sno": "17B",
+        "routeName": "Avadi (Muthapudupet)",
+        "time": "6.14 am",
+        "url": "17b"
+    },
+    "40": {
+        "sno": "17c",
+        "routeName": "Veppampattu",
+        "time": "6.25 am",
+        "url": "17c"
+    },
+    "41": {
+        "sno": "18",
+        "routeName": "AVADI",
+        "time": "6.40 am",
+        "url": "18"
+    },
+    "42": {
+        "sno": "18B",
+        "routeName": "Avadi Check Post",
+        "time": "6.30 am",
+        "url": "18b"
+    },
+    "43": {
+        "sno": "18C",
+        "routeName": "Avadi Market",
+        "time": "6.45 am",
+        "url": "18c"
+    },
+    "44": {
+        "sno": "19",
+        "routeName": " Chengalpattu  ",
+        "time": "5.45 am",
+        "url": "19"
+    },
+    "45": {
+        "sno": "19a",
+        "routeName": "Perungalathur  ",
+        "time": "6.35 am",
+        "url": "19a"
+    },
+    "46": {
+        "sno": "19B",
+        "routeName": "  Varatharaja Theatre",
+        "time": "6.35 am",
+        "url": "19b"
+    },
+    "47": {
+        "sno": "19C",
+        "routeName": " Hasthinapuram  ",
+        "time": "6.20 am",
+        "url": "19c"
+    },
+    "48": {
+        "sno": "20",
+        "routeName": "Kamatchi Hospital (Pallikaranai) ",
+        "time": "6.15 am",
+        "url": "20"
+    },
+    "49": {
+        "sno": "20B",
+        "routeName": "Mambakkam",
+        "time": "6.10 am",
+        "url": "20b"
+    },
+    "50": {
+        "sno": "20C",
+        "routeName": " Madipakkam ",
+        "time": "6.20 am",
+        "url": "20c"
+    },
+    "51": {
+        "sno": "21",
+        "routeName": " Adhambakkam ",
+        "time": "6.25 am",
+        "url": "21"
+    },
+    "52": {
+        "sno": "21C",
+        "routeName": "Velachery ",
+        "time": "6.14 am",
+        "url": "21c"
+    },
+    "53": {
+        "sno": "22",
+        "routeName": "Sholinganallur (OMR) ",
+        "time": "5.50 am",
+        "url": "22"
+    },
+    "54": {
+        "sno": "23",
+        "routeName": "Kovilampakkam ",
+        "time": "6.15 am",
+        "url": "23"
+    },
+    "55": {
+        "sno": "23C",
+        "routeName": "Keelkatalai",
+        "time": "6.25 am",
+        "url": "23c"
+    },
+    "56": {
+        "sno": "24",
+        "routeName": "Nanganallur ",
+        "time": "6.25 am",
+        "url": "24"
+    },
+    "57": {
+        "sno": "24C",
+        "routeName": "Chrompet ",
+        "time": "6.40 am",
+        "url": "24c"
+    },
+    "58": {
+        "sno": "25",
+        "routeName": "VGP (ECR) ",
+        "time": "6.00 am",
+        "url": "25"
+    },
+    "59": {
+        "sno": "25C",
+        "routeName": "Adyar ",
+        "time": "6.15 am",
+        "url": "25c"
+    },
+    "60": {
+        "sno": "26",
+        "routeName": "Triplicane ",
+        "time": "6.05 am",
+        "url": "26"
+    },
+    "61": {
+        "sno": "26C",
+        "routeName": "Nandanam ",
+        "time": "6.15 am",
+        "url": "26c"
+    },
+    "62": {
+        "sno": "27",
+        "routeName": "Pattinapakkam ",
+        "time": "6.00 am",
+        "url": "27"
+    },
+    "63": {
+        "sno": "27C",
+        "routeName": "Santhome (Light house) ",
+        "time": "6.05 am",
+        "url": "27c"
+    },
+    "64": {
+        "sno": "28",
+        "routeName": "LIC ",
+        "time": "6.10 am",
+        "url": "28"
+    },
+    "65": {
+        "sno": "28C",
+        "routeName": "Vadapalani ",
+        "time": "6.25 am",
+        "url": "28c"
+    },
+    "66": {
+        "sno": "29",
+        "routeName": "Saligramam",
+        "time": "6.30 am",
+        "url": "29"
+    },
+    "67": {
+        "sno": "29C",
+        "routeName": "Alwarthirunagar",
+        "time": "6.40 am",
+        "url": "29c"
+    },
+    "68": {
+        "sno": "30",
+        "routeName": "Chinmaya Nagar ",
+        "time": "6.30 am",
+        "url": "30"
+    },
+    "69": {
+        "sno": "30C",
+        "routeName": "Elango Nagar ",
+        "time": "6.40 am",
+        "url": "30c"
+    },
+    "70": {
+        "sno": "31",
+        "routeName": "Valluvarkottam ",
+        "time": "6.15 am",
+        "url": "31"
+    },
+    "71": {
+        "sno": "32",
+        "routeName": "CIT.Nagar ",
+        "time": "6.15 am",
+        "url": "32"
+    },
+    "72": {
+        "sno": "32C",
+        "routeName": "Ashok Pillar ",
+        "time": "6.25 am",
+        "url": "32c"
+    },
+    "73": {
+        "sno": "33",
+        "routeName": "MGR.Nagar ",
+        "time": "6.20 am",
+        "url": "33"
+    },
+    "74": {
+        "sno": "33C",
+        "routeName": "KK Nagar ",
+        "time": "6.35 am",
+        "url": "33c"
+    },
+    "75": {
+        "sno": "34",
+        "routeName": "Pour Ramachandra ",
+        "time": "6.45 am",
+        "url": "34"
+    },
+    "76": {
+        "sno": "35",
+        "routeName": "Pammal",
+        "time": "6.30 am",
+        "url": "35"
+    },
+    "77": {
+        "sno": "35C",
+        "routeName": "Kundrathur ",
+        "time": "6.38 am",
+        "url": "35c"
+    },
+    "78": {
+        "sno": "36",
+        "routeName": "Kovur ",
+        "time": "6.30 am",
+        "url": "36"
+    },
+    "79": {
+        "sno": "36C",
+        "routeName": "Madhanandapuram ",
+        "time": "6.35 am",
+        "url": "36c"
+    },
+    "80": {
+        "sno": "37",
+        "routeName": "DLF ",
+        "time": "6.45 am",
+        "url": "37"
+    },
+    "81": {
+        "sno": "37B",
+        "routeName": "NIVH Poonamalle ",
+        "time": "7.00 am",
+        "url": "37b"
+    },
+    "82": {
+        "sno": "37C",
+        "routeName": "Poonamallee Bus Stand ",
+        "time": "7.05 am",
+        "url": "37c"
+    },
+    "83": {
+        "sno": "38",
+        "routeName": "Cheyyar  ",
+        "time": "5.40 am",
+        "url": "38"
+    },
+    "84": {
+        "sno": "38C",
+        "routeName": "Iyyangarkulam Koot Road",
+        "time": "5.55 am",
+        "url": "38c"
+    },
+    "85": {
+        "sno": "39",
+        "routeName": "Uthiramerur  ",
+        "time": "5.40 am",
+        "url": "39"
+    },
+    "86": {
+        "sno": "40",
+        "routeName": "Walajabad ",
+        "time": "6.15 am",
+        "url": "40"
+    },
+    "87": {
+        "sno": "40B",
+        "routeName": "Rangasamy Kulam ",
+        "time": "6.20 am",
+        "url": "40b"
+    },
+    "88": {
+        "sno": "40C",
+        "routeName": "Kanchipuram Bus Stand ",
+        "time": "6.30 am",
+        "url": "40c"
+    },
+    "89": {
+        "sno": "41",
+        "routeName": "Ranipet ",
+        "time": "6.00 am",
+        "url": "41"
+    },
+    "90": {
+        "sno": "41C",
+        "routeName": "Vellore ",
+        "time": "5.30 am",
+        "url": "41c"
+    },
+    "91": {
+        "sno": "42",
+        "routeName": "Arakkonam  ",
+        "time": "6.10 am",
+        "url": "42"
+    },
+    "92": {
+        "sno": "42C",
+        "routeName": "Sholingur ",
+        "time": "5.35 am",
+        "url": "42c"
+    },
+    "93": {
+        "sno": "43",
+        "routeName": "Thiruthani  ",
+        "time": "5.45 am",
+        "url": "43"
+    },
+    "94": {
+        "sno": "44",
+        "routeName": "Nemili-Panappakkam  ",
+        "time": "6.05 am",
+        "url": "44"
+    }
 }
